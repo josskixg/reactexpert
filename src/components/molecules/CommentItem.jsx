@@ -1,7 +1,7 @@
 import parse from 'html-react-parser';
 import { Clock } from 'lucide-react';
-import { postedAt } from '../utils';
-import VoteButton from './VoteButton';
+import { postedAt } from '../../utils';
+import VoteButton from '../atoms/VoteButton';
 
 function CommentItem({
   id,

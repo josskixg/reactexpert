@@ -7,9 +7,9 @@ import {
   asyncToggleUpvoteThread,
   asyncToggleDownvoteThread,
 } from '../states/threads/action';
-import CategoryFilter from '../components/CategoryFilter';
-import ThreadList from '../components/ThreadList';
-import { ThreadItemSkeleton } from '../components/SkeletonLoader';
+import CategoryFilter from '../components/molecules/CategoryFilter';
+import ThreadList from '../components/organisms/ThreadList';
+import { ThreadItemSkeleton } from '../components/atoms/SkeletonLoader';
 import useInput from '../hooks/useInput';
 
 function HomePage() {

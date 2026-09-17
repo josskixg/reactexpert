@@ -1,7 +1,7 @@
 import CategoryFilter from './CategoryFilter';
 
 export default {
-  title: 'Components/CategoryFilter',
+  title: 'Molecules/CategoryFilter',
   component: CategoryFilter,
   args: {
     categories: ['react', 'javascript', 'typescript'],

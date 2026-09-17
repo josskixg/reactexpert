@@ -1,4 +1,4 @@
-import CommentItem from './CommentItem';
+import CommentItem from '../molecules/CommentItem';
 import { MessageCircle } from 'lucide-react';
 
 function CommentList({

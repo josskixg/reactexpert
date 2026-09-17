@@ -1,4 +1,4 @@
-import ThreadItem from './ThreadItem';
+import ThreadItem from '../molecules/ThreadItem';
 import { MessageSquareOff } from 'lucide-react';
 
 function ThreadList({ threads = [], authUserId = null, onUpvote, onDownvote }) {

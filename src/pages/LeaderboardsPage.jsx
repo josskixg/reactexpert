@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Trophy } from 'lucide-react';
 import { asyncReceiveLeaderboards } from '../states/leaderboards/action';
-import LeaderboardItem from '../components/LeaderboardItem';
-import { LeaderboardItemSkeleton } from '../components/SkeletonLoader';
+import LeaderboardItem from '../components/molecules/LeaderboardItem';
+import { LeaderboardItemSkeleton } from '../components/atoms/SkeletonLoader';
 
 function LeaderboardsPage() {
   const leaderboards = useSelector((state) => state.leaderboards);

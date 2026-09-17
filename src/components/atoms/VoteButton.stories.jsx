@@ -1,7 +1,7 @@
 import VoteButton from './VoteButton';
 
 export default {
-  title: 'Components/VoteButton',
+  title: 'Atoms/VoteButton',
   component: VoteButton,
   args: {
     upVotesBy: [],

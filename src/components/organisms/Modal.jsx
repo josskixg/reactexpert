@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { AlertCircle, CheckCircle2, HelpCircle, Info, X } from 'lucide-react';
-import { hideModalActionCreator } from '../states/modal/action';
+import { hideModalActionCreator } from '../../states/modal/action';
 
 function Modal() {
   const modal = useSelector((state) => state.modal);

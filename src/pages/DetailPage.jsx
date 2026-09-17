@@ -10,9 +10,9 @@ import {
   asyncToggleUpvoteComment,
   asyncToggleDownvoteComment,
 } from '../states/detailThread/action';
-import ThreadDetail from '../components/ThreadDetail';
-import CommentInput from '../components/CommentInput';
-import CommentList from '../components/CommentList';
+import ThreadDetail from '../components/organisms/ThreadDetail';
+import CommentInput from '../components/molecules/CommentInput';
+import CommentList from '../components/organisms/CommentList';
 
 function DetailPage() {
   const { id } = useParams();

@@ -8,8 +8,8 @@ import {
   LogIn,
   UserPlus,
 } from 'lucide-react';
-import { asyncUnsetAuthUser } from '../states/authUser/action';
-import { showModalActionCreator } from '../states/modal/action';
+import { asyncUnsetAuthUser } from '../../states/authUser/action';
+import { showModalActionCreator } from '../../states/modal/action';
 
 function Navbar() {
   const authUser = useSelector((state) => state.authUser);

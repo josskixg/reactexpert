@@ -1,9 +1,9 @@
 import { useDispatch } from 'react-redux';
 import parse from 'html-react-parser';
 import { Clock, Share2 } from 'lucide-react';
-import { postedAt } from '../utils';
-import VoteButton from './VoteButton';
-import { showModalActionCreator } from '../states/modal/action';
+import { postedAt } from '../../utils';
+import VoteButton from '../atoms/VoteButton';
+import { showModalActionCreator } from '../../states/modal/action';
 
 function ThreadDetail({
   title,

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MessageSquare, Clock } from 'lucide-react';
-import { postedAt, truncateText } from '../utils';
-import VoteButton from './VoteButton';
+import { postedAt, truncateText } from '../../utils';
+import VoteButton from '../atoms/VoteButton';
 
 function ThreadItem({
   id,
